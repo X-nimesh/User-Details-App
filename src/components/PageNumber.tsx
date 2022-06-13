@@ -4,8 +4,10 @@ import usePagechange from '../components/usePagechange'
 const PageNumber = (props: any) => {
     let { setPageno, TotalDataNum } = props;
     const [pageNum, setpageNum] = useState(1)
+
     // console.log("log : PageNumber : pageNum", pageNum)
     let i = [1, 2, 3, 4];
+    let totalpagenum = Math.ceil(TotalDataNum / 3);
     // setpageNum(TotalDataNum / 3);
 
     // let { setpageNo } = usePagechange();
