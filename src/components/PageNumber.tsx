@@ -8,6 +8,8 @@ const PageNumber = (props: any) => {
     // console.log("log : PageNumber : pageNum", pageNum)
     let i = [1, 2, 3, 4];
     let totalpagenum = Math.ceil(TotalDataNum / 3);
+    console.log("log : PageNumber : totalpagenum", totalpagenum)
+
     // setpageNum(TotalDataNum / 3);
 
     // let { setpageNo } = usePagechange();
